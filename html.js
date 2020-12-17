@@ -260,7 +260,7 @@ export default `<!doctype html>
                 <label class="FormField--label" for="description">Description</label>
                 <p id="description-describedby" class="FormField--description">Default value is “Products and services”.</p>
               </div>
-              <input class="Input" id="description" type="text" name="description" aria-describedby="description-describedby" autocomplete="off"/>
+              <input class="Input" id="description" type="text" name="description" aria-describedby="description-describedby" autocomplete="off">
             </div>
 
             <div class="FormField">
@@ -268,21 +268,21 @@ export default `<!doctype html>
                 <label class="FormField--label" for="amount">Amount</label>
                 <p class="FormField--description">e.g. “$100” or “¥39000” or simply “500”.</p>
               </div>
-              <input class="Input" id="amount" type="text" name="amount" autocomplete="off"/>
+              <input class="Input" id="amount" type="text" name="amount" autocomplete="off">
             </div>
 
             <div class="FormField">
               <div class="FormField--text">
                 <label class="FormField--label" for="total">Total <span class="Panel--deemphasized">(optional)</span></label>
               </div>
-              <input class="Input" id="total" type="text" name="total" autocomplete="off"/>
+              <input class="Input" id="total" type="text" name="total" autocomplete="off">
             </div>
 
             <div class="FormField">
               <div class="FormField--text">
                 <label class="FormField--label" for="number">Invoice Number/ID <span class="Panel--deemphasized">(optional)</span></label>
               </div>
-              <input class="Input" id="number" type="text" name="number" autocomplete="off"/>
+              <input class="Input" id="number" type="text" name="number" autocomplete="off">
             </div>
 
             <div class="FormField">
@@ -290,7 +290,7 @@ export default `<!doctype html>
                 <label class="FormField--label" for="date">Invoice date</label>
                 <p id="date-describedby" class="FormField--description">Default value is <em>today</em>.</p>
               </div>
-              <input class="Input" id="date" type="text" name="date" aria-describedby="date-describedby" autocomplete="off"/>
+              <input class="Input" id="date" type="text" name="date" aria-describedby="date-describedby" autocomplete="off">
             </div>
           </form>
         </main>
