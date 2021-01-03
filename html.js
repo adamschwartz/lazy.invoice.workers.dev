@@ -309,7 +309,6 @@ export default `<!doctype html>
     </div>
 
     <div class="Dialog---backdrop" dialog-backdrop>
-      <div tabindex="0"></div>
       <div class="Dialog Dialog-is-medium" role="dialog" aria-modal="true" aria-labelledby="dialog-title" dialog>
         <h2 class="Dialog--title" id="dialog-title">About</h2>
 
@@ -332,7 +331,6 @@ export default `<!doctype html>
           </button>
         </div>
       </div>
-      <div tabindex="0"></div>
     </div>
 
     <script>
