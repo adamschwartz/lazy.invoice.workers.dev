@@ -1,4 +1,4 @@
-name: Deploy
+name: 🎁 Deploy
 
 on:
   push:
@@ -8,10 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: 🎀 Deploy
     steps:
       - uses: actions/checkout@master
-      - name: Publish
+      - name: 🖨️ Publish
         uses: cloudflare/wrangler-action@1.0.0
         with:
           apiKey: ${{ secrets.apiKey }}
